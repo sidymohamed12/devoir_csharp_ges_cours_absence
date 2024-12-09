@@ -1,0 +1,14 @@
+{
+  "name": "ges_cours_absence",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/site.min.css --minify",
+    "watch": "tailwindcss -i ./wwwroot/css/site.css -o ./wwwroot/css/site.min.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
