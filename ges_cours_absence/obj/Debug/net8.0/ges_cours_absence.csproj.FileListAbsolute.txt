@@ -1,5 +1,6 @@
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\appsettings.json
+C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\package-lock.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\package.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\ges_cours_absence.staticwebassets.runtime.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\bin\Debug\net8.0\ges_cours_absence.exe
@@ -244,6 +245,7 @@ C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\ges_cou
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\ges_cours_absence.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\ges_cours_absence.RazorAssemblyInfo.cache
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\ges_cours_absence.RazorAssemblyInfo.cs
+C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\ges_cours_absence.sourcelink.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\staticwebassets.build.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\DELL\Documents\devoir_csharp\ges_cours_absence\obj\Debug\net8.0\staticwebassets\msbuild.ges_cours_absence.Microsoft.AspNetCore.StaticWebAssets.props

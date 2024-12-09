@@ -34,11 +34,30 @@ namespace ges_cours_absence.Controllers
             }
 
             var etudiant = await _context.Etudiants
-                .FirstOrDefaultAsync(m => m.Id == id);
+                    .Include(e => e.Absences)
+                    .Include(e => e.Inscriptions)
+                    .ThenInclude(i => i.Classe)
+                    .ThenInclude(c => c.detailCoursClasses)
+                    .ThenInclude(dc => dc.Cours)
+                    .FirstOrDefaultAsync(e => e.Id == id);
+
+            var Absences = await _context.Absences
+            .Where(d => d.Etudiant.Id == id)
+            .Include(a => a.Cours)
+            .ToListAsync();
+
+            var coursList = etudiant.Inscriptions
+                            .SelectMany(i => i.Classe.detailCoursClasses)
+                            .Select(dc => dc.Cours)
+                            .Distinct()
+                            .ToList();
+
             if (etudiant == null)
             {
                 return NotFound();
             }
+            ViewData["Absences"] = Absences;
+            ViewBag.Cours = coursList;
 
             return View(etudiant);
         }

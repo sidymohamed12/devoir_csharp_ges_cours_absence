@@ -10,7 +10,6 @@ namespace ges_cours_absence.Models
         public int NombreHeures { get; set; }
         public string Semestre { get; set; }
         public Professeur Professeur { get; set; }
-
         public List<DetailCoursClasse>? detailCoursClasses { get; set; } = new List<DetailCoursClasse>();
         public List<Absence>? Absences { get; set; } = new List<Absence>();
     }
